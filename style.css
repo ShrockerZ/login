@@ -1,0 +1,32 @@
+:root{
+    --igsscolor:#739935;
+}
+
+.login{
+    border: 1px solid var(--igsscolor);
+    margin-top: 80px;
+    height: 400px;
+    box-shadow: 5px 5px 10px #808080;
+    background-color: white;
+    color:#808080;
+    font-family: -apple-system, BlinkMacSystemFon, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    z-index: 1;
+}
+#loginSubmit{
+    background-color: var(--igsscolor) !important;
+    border: none;
+}
+#loginSubmit:hover{
+    background-color: #88bb35 !important;
+}
+
+#bg-footer{
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10px 10px;
+    height: 400px;
+    opacity: 0.70;
+    position: absolute;
+    bottom: 0px;
+}
