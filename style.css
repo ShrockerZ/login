@@ -10,7 +10,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFon, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 .backGround{
-    background-image: url('/assets/bg_image.jpg');
+    background-image: url('assets/bg_image.jpg');
     background-attachment: fixed;
     position: absolute;
     background-position: 0px 10px;
