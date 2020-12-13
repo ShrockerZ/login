@@ -1,0 +1,12 @@
+body{
+    background-image: url('../assets/bg_image4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contentSection{
+    margin-top: 30vh;
+    background-color: white;
+    opacity: 0.75;
+}

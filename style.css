@@ -1,32 +1,59 @@
 :root{
     --igsscolor:#739935;
+    --contenido:#808080;
+}
+
+body{
+    /* background: linear-gradient(to left, #f7f8f8, #739935); */
+    color: var(--contenido);
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFon, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+.backGround{
+    background-image: url('/assets/bg_image.jpg');
+    background-attachment: fixed;
+    position: absolute;
+    background-position: 0px 10px;
 }
 
 .login{
     border: 1px solid var(--igsscolor);
-    margin-top: 80px;
-    height: 400px;
+    margin-top: 50px;
+    height: 500px;
     box-shadow: 5px 5px 10px #808080;
     background-color: white;
-    color:#808080;
-    font-family: -apple-system, BlinkMacSystemFon, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    z-index: 1;
+    color:var(--contenido);
+    
 }
-#loginSubmit{
+.btn-success{
     background-color: var(--igsscolor) !important;
     border: none;
 }
-#loginSubmit:hover{
+.btn-success:hover{
     background-color: #88bb35 !important;
+} 
+.dropdown-item:hover{
+    background-color: #a7b88c !important;  
 }
-
-#bg-footer{
-    background-image: url('./bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 10px 10px;
-    height: 400px;
-    opacity: 0.70;
-    position: absolute;
-    bottom: 0px;
+/* Ventana de Ayuda */
+.help{
+    background-color: white;
+    margin-top: 50px;
+}
+.help__table{
+    border: 1px solid #808080;
+    box-shadow: 2px 2px 8px #808080;
+}
+/* Barra de Navegacione de Menu */
+.navega{
+    border-bottom: 1px solid var(--igsscolor);
+}
+.navbar-brand{
+    color: var(--igsscolor);
+}
+.nav-link{
+    color: var(--contenido);
+}
+.nav-link:hover{
+    color: var(--igsscolor);
 }
